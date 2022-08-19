@@ -16,7 +16,7 @@
           style="width: 18rem; border-radius: 16px; border: 1px solid"
         >
           <div class="card-body">
-            <h5 class="card-title d-flex justify-content-center">New Combin</h5>
+            <h5 class="card-title d-flex justify-content-center">NewCombin</h5>
             <input
               v-model="username"
               placeholder="Username"
