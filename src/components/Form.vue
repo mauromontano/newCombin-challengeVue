@@ -1,8 +1,8 @@
 <template>
   <div style="background-color: #ffffff; padding: 20px">
-    <form v-on:submit="addMember">
+    <form @submit.prevent="addMember">
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">First Name</label>
+        <label class="form-label">First Name</label>
         <input
           type="text"
           class="form-control"
